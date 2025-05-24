@@ -1,6 +1,6 @@
 import discord
 from bot.config import create_discord_config
-from chat.assistant import ask_stilgar
+from core.assistant import ask_stilgar
 
 discord_config = create_discord_config()
 

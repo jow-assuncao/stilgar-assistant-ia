@@ -1,7 +1,8 @@
-from chat.assistant import ask_stilgar
+from core.assistant import ask_stilgar
+
 
 def main():
-    print("[Stilgar]: Saudações! Pergunte algo ou digite 'sair' para encerrar.\n") 
+    print("[Stilgar]: Saudações! Pergunte algo ou digite 'sair' para encerrar.\n")
 
     while True:
         try:
@@ -18,6 +19,7 @@ def main():
             break
         except Exception as e:
             print(f"[Erro] > {str(e)}")
+
 
 if __name__ == "__main__":
     main()
